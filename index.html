@@ -81,8 +81,7 @@
             iframe.setAttribute('allowfullscreen', '');
             document.body.appendChild(iframe);
 
-            iframe.onclick = () => {
-                iframe.remove(); // closes the iframe once you click (remove this if not wanted)
+
             };
         }
     </script>
@@ -112,6 +111,9 @@
         </div>
         <div class="game-card" onclick="openFullscreen('https://diep.io/')">
             <img src="https://via.placeholder.com/200x160" alt="Diep.io">
+            <h3>Diep.io</h3>
+                    <div class="game-card" onclick="openFullscreen('https://astro-games.xyz/game.html/')">
+            <img src="https://via.placeholder.com/200x160" alt="SuperMario64">
             <h3>Diep.io</h3>
             <!-- copy one of these to add new games, change link to wanted game, and img to a links favicon (icon on the tab) the alt will just show the text if img doesnt work (change the text to work as well) -->
         </div>
